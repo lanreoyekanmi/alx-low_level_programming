@@ -4,10 +4,10 @@
 /**
  * main - Entry point
  *
- * Return: nothing, return void
+ * Return: (0) if sucessful
  */
 
-int main(char c)
+int _putchar(char c)
 {
 _putchar('_');
 _putchar('p');
