@@ -2,9 +2,9 @@
 
 
 /**
- * main - Entry point
+ *print_purchar -print "-purchar"
  *
- * Return: nothing, return void
+ * Return: nothing
  */
 
 int main(void)
