@@ -16,11 +16,10 @@ k = 2;
 for (i = 1; i <= 50; ++i)
 {
 if (j != 20365011074)
-{
-printf("%ld, ", j);
-} 
 
-else
+	printf("%ld, ", j); 
+	
+	else
 {
 printf("%ld\n", j);
 }
