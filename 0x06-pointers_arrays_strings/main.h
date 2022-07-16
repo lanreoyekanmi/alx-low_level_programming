@@ -1,27 +1,18 @@
-#include "main.h"
-/**
- * _strncat - concatenates two strings,
- * @dest: destination.
- * @src: source.
- * @n: amount of bytes used from src.
- * Return: the pointer to dest.
- */
-char *_strncat(char *dest, char *src, int n)
-{
-	int count = 0, count2 = 0;
+#ifndef _main_H_
+#define _main_H_
 
-	while (*(dest + count) != '\0')
-	{
-		count++;
-	}
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+void reverse_array(int *a, int n);
+char *string_toupper(char *);
+char *cap_string(char *);
+char *leet(char *);
+char *rot13(char *);
+void print_number(int n);
+int _putchar(char);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size);
 
-	while (count2 < n)
-	{
-		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
-			break;
-		count++;
-		count2++;
-	}
-	return (dest);
-}
+#endif
