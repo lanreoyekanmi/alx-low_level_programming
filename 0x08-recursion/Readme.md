@@ -45,7 +45,4 @@ What you should learn from this project:
 ### [8. Inception. Now, before you bother telling me it's impossible...](./100-wildcmp.c)
 * Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
 
----
 
-## Author
-* **Jhoan Stiven Zamora Caicedo** - [jzamora5](https://github.com/jzamora5)
